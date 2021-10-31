@@ -1,0 +1,22 @@
+{
+  "name": "schedule-flight",
+  "version": "0.0.1",
+  "description": "Script para extraer los vuelos reales y guardarlos en un archivo CSV",
+  "main": "app.ja",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EUK136/schedule-flight.git"
+  },
+  "author": "Alberto Gijon (176909)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EUK136/schedule-flight/issues"
+  },
+  "homepage": "https://github.com/EUK136/schedule-flight#readme",
+  "dependencies": {
+    "csv-writer": "^1.6.0"
+  }
+}
