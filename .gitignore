@@ -1,2 +1,8 @@
+#Carpeta modulos
 node_modules/
-.csv
+
+#Archivo de sistemas
+*.DS_Store
+
+#Archivos CSV
+*.csv

@@ -1,11 +1,15 @@
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
+
+
+
+
+//Generar archivo CSV
 const csvWriter = createCsvWriter({
   path: './output/out.csv',
   header: [
     {id: 'flight_date', title: 'Date flight'},
     {id: 'flight_status', title: 'Status'},
-    {id: 'departure.icao', title: 'ICAO'},
-    {id: 'gate', title: 'Gate'},
+    {id: 'icao', title: 'ICAO'}
   ]
 });
 
